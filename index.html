@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Website</title>
-</head>
-<body>
-  <h1>Hello, world!</h1>
-  <p>This is my first website created on my MacBook M4 Pro!</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My First Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davut Mammetsheripov</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f4f8;
+      background: #f4f4f4;
       color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
       text-align: center;
-      padding-top: 100px;
     }
-    h1 {
-      color: #0077cc;
+    main {
+      padding: 40px;
+      text-align: center;
     }
-    button {
+    footer {
+      background: #222;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .button {
       padding: 12px 24px;
-      font-size: 16px;
-      background-color: #0077cc;
+      background-color: #0077ff;
       color: white;
       border: none;
-      border-radius: 6px;
+      border-radius: 5px;
       cursor: pointer;
       margin-top: 20px;
     }
-    button:hover {
-      background-color: #005fa3;
+    .button:hover {
+      background-color: #005fcc;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my first website created on my MacBook M4 Pro!</p>
-  <button>Click me</button>
+  <header>
+    <h1>Welcome to Davut's Website</h1>
+  </header>
+  <main>
+    <h2>Coming soon a new Haker</h2>
+    <p>Be carrefull!!!</p>
+    <button class="button">Contact Me</button>
+  </main>
+  <footer>
+    &copy; 2025 Davut Mammetsheripov
+  </footer>
 </body>
 </html>
